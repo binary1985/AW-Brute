@@ -1,1 +1,17 @@
-Read this
+Tools for attacking Airwatch
+
+
+aw-enum
+
+Take advantage of unauthenticated information disclosure of the air watch policy:
+
+example:
+./aw-enum.sh <group code> <airwatch server>
+
+
+aw-brute
+
+Perform authentication attacks, while handling the occasional captcha:
+
+example:
+./aw-brute.sh <group code> <airwatch server> <user file> <password>
